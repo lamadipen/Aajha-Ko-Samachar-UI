@@ -1,3 +1,14 @@
-Thank you for downloading this Bootstrap theme. This theme was downloaded from UseBotstrap.com
+Introduction
 
-If you need more themes, visit our website: http://usebootstrap.com/
+
+Usage
+Clone to your machine 
+Open the index.html in your browser
+
+
+Releases
+Aajha ko Samachar 1.0
+
+Change log
+
+ Credits
