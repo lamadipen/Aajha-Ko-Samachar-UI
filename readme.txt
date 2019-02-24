@@ -1,6 +1,5 @@
 Introduction
 
-
 Usage
 Clone to your machine 
 Open the index.html in your browser
