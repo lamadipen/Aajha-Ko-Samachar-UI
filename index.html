@@ -212,16 +212,16 @@
         
         console.log("Here");
         
-    //     $(document).ready(function() {
+        $(document).ready(function() {
              
-    //        });
+           });
        
-    //    $.get("http://aajkosamachar.com:8080/api/v3/news/today", {"Authorization": "Basic " + btoa("android" + ":" + "~!@#$%^&*()_+")})
-    //    .done(
-    //        function(data, status){
-    //        alert("Data: " + data + "\nStatus: " + status);
-    //      }
-    //    );
+       $.get("http://aajkosamachar.com:8080/api/v3/news/today", {"Authorization": "Basic " + btoa("android" + ":" + "~!@#$%^&*()_+")})
+       .done(
+           function(data, status){
+           alert("Data: " + data + "\nStatus: " + status);
+         }
+       );
 
     //    $.ajax({
     //         url: 'http://aajkosamachar.com:8080/api/v3/news/today',
@@ -235,9 +235,9 @@
     //             "Host":"aajkosamachar.com:8080",
     //             "Upgrade-Insecure-Requests":1,
     //             "Connection":"keep-alive",
-    //             "Cookie":"JSESSIONID=DA5FC4D715A5F4544DCD42F6B838ECF2"
-    // "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
-    // "content-type":"application/json;charset=UTF-8",
+    //             "Cookie":"JSESSIONID=DA5FC4D715A5F4544DCD42F6B838ECF2",
+    //             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0",
+    //             "content-type":"application/json;charset=UTF-8",
     //         },
     //         method: 'GET',
     //         success: function(data){
